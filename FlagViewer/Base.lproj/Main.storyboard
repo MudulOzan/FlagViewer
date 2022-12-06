@@ -10,7 +10,7 @@
         <!--Detail View Controller-->
         <scene sceneID="Iml-t1-I7A">
             <objects>
-                <viewController storyboardIdentifier="Detail" id="aoJ-gx-CPl" customClass="DetailViewController" customModule="Project1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Detail" id="aoJ-gx-CPl" customClass="DetailViewController" customModule="FlagViewer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pdI-Jj-KyP">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,7 +29,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="dse-Dz-FTu" id="fP0-Sc-deV"/>
+                        <outlet property="imageView" destination="dse-Dz-FTu" id="t69-bi-NEy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5xv-Vj-1Fv" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -57,7 +57,7 @@
         <!--View Controller-->
         <scene sceneID="6fB-0E-ApE">
             <objects>
-                <tableViewController id="FGV-Uv-ZjW" customClass="ViewController" customModule="Project1" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="FGV-Uv-ZjW" customClass="ViewController" customModule="FlagViewer" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="AUt-gu-uAU">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
